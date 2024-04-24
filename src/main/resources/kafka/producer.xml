@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <producer>
     <!--  серилизаторы для ключей и занчений-->
-    <keySerializer>org.apache.common.serialization.StringSerializer</keySerializer>
-    <valueSerializer>org.springframework.kafka.support.serializer.JsonSerializer</valueSerializer>
-
+    <keySerializer>
+        org.apache.kafka.common.serialization.StringSerializer
+    </keySerializer>
+    <valueSerializer>
+        org.springframework.kafka.support.serializer.JsonSerializer
+    </valueSerializer>
 </producer>
